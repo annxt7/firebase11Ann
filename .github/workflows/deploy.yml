@@ -20,4 +20,4 @@ jobs:
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
         run: |
-          firebase deploy --only hosting --project "actividad11ann-4c3b9." --token "$FIREBASE_TOKEN"
+          firebase deploy --only hosting --project "actividad11ann-4c3b9" --token "$FIREBASE_TOKEN"
